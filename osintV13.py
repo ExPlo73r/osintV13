@@ -20,7 +20,7 @@ banner_text= '''
                                                           
 '''
 print(f"{Red}{banner_text}")
-parser = argparse.ArgumentParser(description=display_banner())
+#parser = argparse.ArgumentParser(description=display_banner())
 parser = argparse.ArgumentParser(prog='Osint By Viernez13', description='Busqueda automatica en fuentes abiertas (y no tan abiertas) de chile')
 parser.add_argument('-rut',  type=str, nargs='?', help='Rut de la persona a buscar, con formato: 11111111-1 ')
 parser.add_argument('-patente', type=str, nargs='?', help='Patente del vehiculo a buscar, con formato: aabb11')
