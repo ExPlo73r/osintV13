@@ -8,7 +8,7 @@ import sources.numverify as numverify
 import sources.masterchileapkBday as mchaBday
 from colorama import Fore, init #color text Formating
 Red= Fore.RED #Definiendo el Color
-banner_test= '''
+banner_text= '''
 ██╗   ██╗██╗███████╗██████╗ ███╗   ██╗███████╗███████╗ ██╗██████╗ 
 ██║   ██║██║██╔════╝██╔══██╗████╗  ██║██╔════╝╚══███╔╝███║╚════██╗
 ██║   ██║██║█████╗  ██████╔╝██╔██╗ ██║█████╗    ███╔╝ ╚██║ █████╔╝
