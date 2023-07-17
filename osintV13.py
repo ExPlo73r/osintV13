@@ -6,6 +6,22 @@ import sources.sii as sii
 import sources.volanteomaleta as volanteomaleta
 import sources.numverify as numverify
 import sources.masterchileapkBday as mchaBday
+from colorama import Fore, init #color text Formating
+Red= Fore.RED #Definiendo el Color
+banner_test= '''
+██╗   ██╗██╗███████╗██████╗ ███╗   ██╗███████╗███████╗ ██╗██████╗ 
+██║   ██║██║██╔════╝██╔══██╗████╗  ██║██╔════╝╚══███╔╝███║╚════██╗
+██║   ██║██║█████╗  ██████╔╝██╔██╗ ██║█████╗    ███╔╝ ╚██║ █████╔╝
+╚██╗ ██╔╝██║██╔══╝  ██╔══██╗██║╚██╗██║██╔══╝   ███╔╝   ██║ ╚═══██╗
+ ╚████╔╝ ██║███████╗██║  ██║██║ ╚████║███████╗███████╗ ██║██████╔╝
+  ╚═══╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝╚══════╝ ╚═╝╚═════╝ 
+   	Script  de Osint en Chile V1.0
+	Coded by Viernez13     
+                                                          
+'''
+print(f"{Red}{banner_text}{reset}")
+def get_arguments():
+parser = argparse.ArgumentParser(description=display_banner())
 parser = argparse.ArgumentParser(prog='Osint By Viernez13', description='Busqueda automatica en fuentes abiertas (y no tan abiertas) de chile')
 parser.add_argument('-rut',  type=str, nargs='?', help='Rut de la persona a buscar, con formato: 11111111-1 ')
 parser.add_argument('-patente', type=str, nargs='?', help='Patente del vehiculo a buscar, con formato: aabb11')
