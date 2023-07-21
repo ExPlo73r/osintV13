@@ -14,8 +14,8 @@ Este script es solo para propositos educativos y para poner en la mesa el tema d
 ## Como lo Uso: <br>
   Sin parametros te muestra una ayuda<br>
 <br>
-$ python3 OSINTchile.py<br>
-usage: OSINTchile [-h] [-rut [RUT]] [-patente [PATENTE]]<br>
+$ python3 osintV13.py<br>
+usage: osintV13 [-h] [-rut [RUT]] [-patente [PATENTE]]<br>
                   [-telefono [TELEFONO]]<br>
 
 Busqueda automatica en fuentes abiertas (y no tan abiertas) de chile<br>
@@ -28,7 +28,7 @@ optional arguments:<br>
 <br>
 <br>
 Ejemplos<br>
-$python3 OSINTchile.py -rut 3198442-4<br>
-$python3 OSINTchile.py -telefono 56955555555<br>
-$python3 OSINTchile.py -patente aabb11<br>
+$python3 osintV13.py -rut 3198442-4<br>
+$python3 osintV13.py -telefono 56955555555<br>
+$python3 osintV13.py -patente aabb11<br>
 
